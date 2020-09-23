@@ -24,7 +24,9 @@ const handleUserInput = function(key) {
   } else if (key === 'd') {
     return ("Move: right")
   } else if (key === 'g') {
-    return ('Name: GG')
+    return ('Say: GG WP')
+  } else if (key === 't') {
+    return ('Say: Follow me on Twitch')
   }
   
 }
